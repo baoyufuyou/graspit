@@ -105,7 +105,7 @@ endif (OPTIMIZATION_SOLVER STREQUAL GUROBI)
 
 SET( QT_USE_QT3SUPPORT TRUE )
 # find_package(Qt4 COMPONENTS QtCore QtSql REQUIRED)
-find_package(Qt5 COMPONENTS QtCore QtSql REQUIRED) # conan-testing
+find_package(Qt COMPONENTS QtCore QtSql REQUIRED) # conan-testing
 
 include (${QT_USE_FILE})
 
